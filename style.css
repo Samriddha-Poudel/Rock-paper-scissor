@@ -33,11 +33,14 @@ body{
     margin-top:5px;
 }
 
-.container .weapon-box{
+.container .weapon-box, 
+.container .player-choices{
     height:120px;
     width:100%;  
     margin-top:70px;
 }
+
+
 
 .container .weapon-box h3{
 
@@ -90,6 +93,65 @@ body{
 .container .score-box div{
     height:25px;
     width:85px;
-    border:1px solid red;
     float:left;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#000;
+    border-right:2px solid #000;
+    margin-top:4px;
+    margin-left:4px;
+}
+
+.container .score-box div:nth-child(3){
+    border-right:none;
+}
+
+.container .score-box div h3 span{
+    color:#333;
+
+}
+
+
+.container .player-choices{
+    height:170px;
+    margin-top:20px;
+    overflow:hidden;
+    display:none;
+}
+
+.container .player-choices div{
+
+    height:130px;
+    width:130px;
+    /* background:red; */
+    float:left;
+    margin-top:15px;
+
+}
+
+
+.container .player-choices div:nth-child(3){
+     transform:rotateY(180deg);
+     position:relative;
+     left:40px;
+}
+
+.container .player-choices div img{
+    height:130px;
+    width:130px;
+}
+
+
+.container .player-choices h3{
+    word-spacing:45px;
+    text-align:center;
+    font-size:15px;
+    font-weight:600;
+}
+
+
+.contaier .player-choices h3 span{
+    font-weight:200;
+
 }
