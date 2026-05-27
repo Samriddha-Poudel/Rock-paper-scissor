@@ -119,7 +119,6 @@ body{
     margin-top:20px;
     overflow:hidden;
     display:none;
-    border:1px solid red;
     position:relative;
 
 }
@@ -176,6 +175,7 @@ body{
     left:0;
     transition:all .2s;
     animation:player .8s linear infinite;
+    animation-delay:.5s;
 }
 
 
@@ -197,6 +197,7 @@ body{
     left:40px;
     transition:all .2s;
     animation:computer .8s linear infinite;
+    animation-delay:.5s;
 }
 
 @keyframes computer {
