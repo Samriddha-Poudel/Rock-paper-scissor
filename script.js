@@ -7,5 +7,11 @@ for (let i = 0; i < weapons.length; i++) {
     weapons[i].addEventListener("click", (e) => {
         weaponBox.style.display ="none";
         playerChoicesBox.style.display="block";
+
+
+        setTimeout(() => {
+
+            playerChoicesBox.classList.add("active");
+        }, 1000);
     });
 }
