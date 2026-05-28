@@ -10,5 +10,10 @@ Win, Lose and Draw detection and score are also tracked .
 - CSS : CSS is used in this projec to style the HTML elements and also for animations .
 - JS : JS is used in this project to impliment the logic of the game .
 
+
+# Note:
+I have deplyod all of mine project through netlify which i have sumbited till now unitl expect one and my free trail of netlify has been full of limit so my website is down in netlify so i have uploaded it from github pages so you can cehck it out from here .
+
+
   # How to use it:
-  To play this game you just have to visit https://samriddha-rock-paper-scissor.netlify.app/ and all set Enjoy .
+  To play this game you just have to visit https://samriddha-poudel.github.io/Rock-paper-scissor/ and all set Enjoy .
