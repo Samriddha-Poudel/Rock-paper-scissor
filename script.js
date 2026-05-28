@@ -26,13 +26,18 @@ let outcomes = {
     ScissorsScissors:"Draw",
     ScissorsRock:"Computer",
     ScissorsRock:"Computer",
-    ScissorPaper:"You",
+    ScissorsPaper:"You",
 
     
 }
 
 for (let i = 0; i < weapons.length; i++) {
     weapons[i].addEventListener("click", (e) => {
+
+        player.src="Images/Rock.png";
+        computer.src="Images/Rock.png";
+
+
         weaponBox.style.display ="none";
         playerChoicesBox.style.display="block";
 
@@ -92,3 +97,22 @@ let showResult = (result) => {
     }
 
 }
+
+
+playagainBtn.addEventListener("click", () => {
+    playerChoicesBox.classList.remove("active");
+    container.style.height= "380px";
+    resultBox.style.display="none";
+    weaponBox.style.display="block";
+    playerChoicesBox.style.display="none";
+
+
+    
+
+
+    let playerChoices = playerChoicesBox.querySelectorAll("div");
+    for(let i=0; i < playerChoices.length; i++){
+        playerChoices[i].style.animationPlayState="running";
+    }
+
+})

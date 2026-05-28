@@ -239,3 +239,20 @@
         transition:all .2s;
         
     }
+
+    footer{
+        position:fixed;
+        bottom:25px;
+        left:20px;
+        display:flex;
+        align-items:center;
+        gap:7px;
+        font-size:16px;
+    }
+
+
+    footer .github-link{
+        color:#333;
+        font-size:20px;
+        text-decoration:none;
+    }
